@@ -34,6 +34,7 @@ if (IIsMine(instance, (int)myid)) {
         setisImmortality(instance, true);
         LOGD("Photon View Player: %d", myid);
     }
+}
 ```
 This will grant Immortality only to you, not reflected to everyone! Congratulations! 
 ### How to reflect this to everyone
@@ -46,6 +47,7 @@ if (!IIsMine(instance, (int)myid)) {
     if (isBigHead) {
         SetBigHeadEffect(instance, true);
     }
+}
 ```
 Usually if you use only setbighead nothing happens. However, if you put in someone else's id it actually works.    
 
