@@ -54,4 +54,6 @@ if (!IIsMine(instance, (int)myid)) {
 Usually if you use only setbighead nothing happens. However, if you put in someone else's id it actually works.    
 
 Thanks for reading this far.  
-If you have any questions, please contact us at discord: Unknown-19#6775
+If you have any questions, please contact us at discord: Unknown-19#6775     
+
+This project has been made private. [pg3d_somehooks](https://github.com/Unknown-19/pg3d_somehooks)
