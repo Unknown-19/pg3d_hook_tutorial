@@ -23,6 +23,8 @@ You can use get_isMine and apply it only to yourself.
 ```c#
 // RVA: 0x49B4078 Offset: 0x49B4078 VA: 0x49B4078
 internal bool 丆丟不丙丅与上丗与() { }
+
+//pg3d v23.3.2
 ```
 No parameters are shown in dump.cs, but ghidra shows an int type for the parameter. In other words, put the player id of photonview here. * but you can also do it with get_ismine in photonview. Since PhotonView$$get_isMine is available, we thought we could substitute it.  
 If you have ever created a bot such as Discord, you know that you always need a destination (id) and other information when sending messages and so on. It is a little different in the game, but it is similar.  
