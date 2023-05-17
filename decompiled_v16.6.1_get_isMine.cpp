@@ -1,5 +1,11 @@
 // This is the source decompiled by ghidra.
 
+/*
+0x1d0 public PhotonView photonView;
+0x2b3 private bool _isMine;
+0x2b4 private bool _isMineInitialized;
+*/
+
 undefined Player_move_c$$get_isMine(int param_1)
 
 {
